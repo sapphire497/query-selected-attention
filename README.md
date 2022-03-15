@@ -10,3 +10,21 @@
 <br>
 QS-Attn applies attention to select anchors for contrastive learning in single-direction I2I task
 </p>
+
+## Getting Started
+### Prerequisites
+- Ubuntu 16.04
+- NVIDIA GPU + CUDA CuDNN
+- Python 3
+
+## Pretrained Models
+Coming soon!
+
+## Training
+Coming soon!
+
+## Inference
+Coming soon!
+
+## Citation
+If you use this code for your research, please cite
