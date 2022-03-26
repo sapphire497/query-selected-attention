@@ -48,3 +48,11 @@ python test.py \
 
 ## Citation
 If you use this code for your research, please cite
+```
+@article{hu2022qs,
+  title={QS-Attn: Query-Selected Attention for Contrastive Learning in I2I Translation},
+  author={Hu, Xueqi and Zhou, Xinyue and Huang, Qiusheng and Shi, Zhengyi and Sun, Li and Li, Qingli},
+  journal={arXiv preprint arXiv:2203.08483},
+  year={2022}
+}
+```
