@@ -17,15 +17,34 @@ QS-Attn applies attention to select anchors for contrastive learning in single-d
 - Ubuntu 16.04
 - NVIDIA GPU + CUDA CuDNN
 - Python 3
+Please use `pip install -r requirements.txt` to install the dependencies.
 
 ## Pretrained Models
 Coming soon!
 
 ## Training
-Coming soon!
+- Download `horse2zebra` dataset :
+```
+bash ./datasets/download_qsattn_dataset.sh horse2zebra
+```
+- Train the global model:
+```
+python train.py \
+--dataroot=datasets/horse2zebra \
+--name=horse2zebra_qsattn_global \
+--QS_mode=global
+```
+- You can use visdom to view the training loss:
+Run `python -m visdom.server` and click the URL http://localhost:8097.
 
 ## Inference
-Coming soon!
+- Test the global model:
+```
+python test.py \
+--dataroot=datasets/horse2zebra \
+--name=horse2zebra_qsattn_global \
+--QS_mode=global
+```
 
 ## Citation
 If you use this code for your research, please cite
