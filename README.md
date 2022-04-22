@@ -20,7 +20,11 @@ QS-Attn applies attention to select anchors for contrastive learning in single-d
 Please use `pip install -r requirements.txt` to install the dependencies.
 
 ## Pretrained Models
-Coming soon!
+We provide Global, Local and Global+Local models for three datasets.
+| Model | Cityscapes | Horse2zebra | AFHQ
+| Global | [Cityscapes_Global](https://drive.google.com/file/d/1GTevGHIXn0NW2mAzb_3tq5NjkJGVamt5/view?usp=sharing) | [Horse2zebra_Global](https://drive.google.com/file/d/1Nhp34UpFJlQA-FH4J8eqwvp7a_boJNKb/view?usp=sharing) | [AFHQ_Global](https://drive.google.com/file/d/1OHmoTc_rxkMzkstN2caVmAxDkw4F2QVN/view?usp=sharing)
+| Local | [Cityscapes_Local](https://drive.google.com/file/d/1uI2G7SXlF5YAo7z9olFFKINtYToTiwbu/view?usp=sharing) | [Horse2zebra_Local](https://drive.google.com/file/d/1TrmGhj5eElSU0doc5ehEAje_G7PC1HCh/view?usp=sharing) | [AFHQ_Local](https://drive.google.com/file/d/13wCMffJibqzKhqOqbpSQ5gdr0WeDdBf9/view?usp=sharing)
+| Global+Local | [Cityscapes_Global+Local](https://drive.google.com/file/d/1Cccobqbn67J1rDN5AuFyyIIKasA5bA-y/view?usp=sharing) | [Horse2zebra_Global+Local](https://drive.google.com/file/d/1SP3kf7LNYmpaZZJ7o6N5uPQT-ZjhHIsm/view?usp=sharing) | [AFHQ_Global+Local](https://drive.google.com/file/d/1xvDpD9dbjrZIzT8FjTd8q0dWdhSzNjZx/view?usp=sharing)
 
 ## Training
 - Download `horse2zebra` dataset :
