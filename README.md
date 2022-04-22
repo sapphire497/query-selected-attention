@@ -36,7 +36,7 @@ bash ./datasets/download_qsattn_dataset.sh horse2zebra
 ```
 python train.py \
 --dataroot=datasets/horse2zebra \
---name=horse2zebra_qsattn_global \
+--name=horse2zebra_global \
 --QS_mode=global
 ```
 - You can use visdom to view the training loss:
