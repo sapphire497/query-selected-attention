@@ -54,10 +54,11 @@ python test.py \
 ## Citation
 If you use this code for your research, please cite
 ```
-@article{hu2022qs,
+@inproceedings{hu2022qs,
   title={QS-Attn: Query-Selected Attention for Contrastive Learning in I2I Translation},
   author={Hu, Xueqi and Zhou, Xinyue and Huang, Qiusheng and Shi, Zhengyi and Sun, Li and Li, Qingli},
-  journal={arXiv preprint arXiv:2203.08483},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={18291--18300},
   year={2022}
 }
 ```
